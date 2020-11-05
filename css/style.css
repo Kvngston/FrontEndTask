@@ -1,0 +1,300 @@
+.navbar-bg{
+    background-color: white !important;
+    box-shadow: 0 5px 6px -6px #777;
+}
+
+.main-container{
+    padding: 20px;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container2{
+    display: flex;
+    width: 100%;
+    padding-top: 0;
+    padding-left: 25px;
+    padding-bottom: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-container3{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex-container4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+    border-radius: 1rem !important;
+    background-color: #F7F8FC;
+    padding: 25px 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-style{
+    width: 125vh;
+}
+
+.side1{
+    width: 100%;
+    flex-grow: 2;
+}
+.side2{
+    flex-grow: 1;
+    width: 100%;
+}
+
+.share-btn{
+    padding: 3px !important;
+    width: 25%;
+    border:1px solid rgba(125, 122, 158, 0.5); !important;
+    color: rgba(125, 122, 158, 0.5);
+}
+
+.date{
+    font-size: 14px;
+}
+.txt{
+    font-size: 26px;
+}
+
+.tag {
+    border-radius: 10px;
+    border: 1px solid #EBEBF2;
+    padding: 7px 10px;
+    color: #7D7A9E;
+    background-color: #ffffff;
+}
+
+h6{
+    text-align: center;
+}
+
+.frontend-masters{
+    border: 1px solid black;
+    border-top: 7px solid #DB4F23;
+    border-radius: 0.25rem 0.25rem 0 0 !important;
+    width: 100%;
+    height: 200px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #1F1F1F;
+}
+
+.sponsored{
+    padding: 15px;
+    border: 1px solid black;
+    border-top: 0 solid black;
+    border-radius: 0 0 0.25rem 0.25rem !important;
+}
+
+.btn-browse{
+    padding: 4% 15%;
+    border-radius: 100px;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #DB4F23;
+}
+
+.text-pad{
+    text-align: center;
+}
+
+.btn-download{
+    background-color: #68E4BC;
+    padding: 20px 15px !important;
+    color: white;
+    box-shadow: 0 5px 6px -6px #777;
+}
+
+.btn-download:hover{
+    background-color: #4CD1D0;
+}
+
+.color-palette-txt1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.color-palette-txt2{
+    font-size: 14px;
+}
+
+.pallet{
+    width: 45%;
+    height: 50px;
+}
+
+.pallet1{
+    border-radius: 2rem;
+    background-color: white;
+}
+.pallet2{
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.pallet3{
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.pallet4{
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.pallet5{
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.pallet6{
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.inside-pallet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.circle{
+    position: relative;
+    top: 5px;
+    height: 40px;
+    width: 25%;
+    border-radius: 100%;
+    background-color: #f3fbfb;
+}
+
+.color-code{
+    text-align: center;
+    position: relative;
+    top: 2px;
+    width: 60%;
+    line-height: 40px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* STYLES GO HERE */
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* STYLES GO HERE */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* STYLES GO HERE */
+    .img-style{
+        width: 70vh;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* STYLES GO HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    /* STYLES GO HERE */
+    .img-style{
+        width: 70vh;
+    }
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+    /* STYLES GO HERE */
+
+    .flex-container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .img-style{
+        width: 100%;
+    }
+}
