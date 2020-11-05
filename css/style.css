@@ -267,9 +267,6 @@ and (min-width : 1824px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
     /* STYLES GO HERE */
-    .img-style{
-        width: 70vh;
-    }
 }
 
 /* iPhone 5 (landscape)----------- */
@@ -291,7 +288,11 @@ and (orientation : portrait) {
         display: flex;
         width: 100%;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+
+    .nav-link{
+        font-size: 15px;
     }
 
     .img-style{
